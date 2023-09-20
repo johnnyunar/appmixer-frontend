@@ -1,0 +1,45 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ol {
+    list-style-type: upper-latin;
+}
+
+ul {
+    list-style-type: square;
+}
+
+details {
+    border: 1px dotted grey;
+    border-radius: 10px;
+    padding-left: 5px;
+    width: 150px;
+}
+
+footer {
+    border: 1px dotted grey;
+    border-radius: 10px;
+    padding-left: 5px;
+    margin-top: 20px;
+}
+
+#details-id {
+    color: darkblue;
+}
+
+li.even {
+    background-color: lightgrey;
+}
+
+li.odd {
+    background-color: grey;
+}
+
+.important {
+    color: red;
+}
+
+ol > .important {
+    color: green;
+}
