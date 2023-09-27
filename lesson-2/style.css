@@ -3,11 +3,23 @@ img {
     margin-right: 30px;
 }
 
-.img-wrapper {
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 50px;
+}
+
+.thumbnail {
+    cursor: pointer;
     width: 200px;
     height: 200px;
-    overflow: hidden;
-    display: inline-block;
-    margin-right: 20px;
+    background-size: cover;
+    background-position: center;
+    transition: 200ms ease-in-out;
     border-radius: 10px;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
 }
